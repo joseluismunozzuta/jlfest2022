@@ -435,10 +435,6 @@ header a {
   }
 }
 
-.about {
-  /* margin-bottom: -80px; */
-}
-
 .about__container {
   background-color: #fff;
   border-radius: 3%;
@@ -648,10 +644,6 @@ header a {
 .projects__name {
   font-size: 25px;
   font-weight: 700;
-}
-
-.projects__text {
-  /* max-width: 520px; */
 }
 
 .projects__text--pr {
