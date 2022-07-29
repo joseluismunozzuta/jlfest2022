@@ -216,10 +216,6 @@ header img {
   transition: all 0.3s ease;
 }
 
-header img:hover {
-  filter: invert(50%) sepia(12%) saturate(1413%) hue-rotate(223deg) brightness(94%) contrast(87%);
-}
-
 header a {
   text-decoration: none !important;
   color: black !important;
