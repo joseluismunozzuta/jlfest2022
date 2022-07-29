@@ -2,7 +2,7 @@
 body {
   font-size: 16px;
   font-family: "Poppins", sans-serif;
-  background-color: #e4e4e4;
+  background-color: #0f0968;
   overflow-x: hidden;
 }
 
@@ -11,6 +11,16 @@ html {
   overflow-x: hidden;
   cursor: none !important;
 }
+
+/* heartbeat */
+.heartbeat {
+  animation: heartbeat 1s infinite alternate; }
+
+@keyframes heartbeat {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(0.9);
+    text-transform: scale(0.9); } }
 
 /* *{
     outline: 1px solid #ff009926;
@@ -36,7 +46,8 @@ html {
   height: 20px;
   left: 20px;
   right: 0;
-  transition: transform 0.2s ease, opacity 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+  transition: transform 0.2s ease, opacity 0.2s ease, border-color 0.2s ease,
+ background-color 0.2s ease;
   pointer-events: none;
   z-index: 101;
 }
@@ -200,7 +211,7 @@ header nav {
 }
 
 header img {
-  max-width: 47px;
+  max-width: 200px;
   padding: 5px 0;
   transition: all 0.3s ease;
 }
@@ -213,10 +224,6 @@ header a {
   text-decoration: none !important;
   color: black !important;
   cursor: none;
-}
-
-header a:hover {
-  color: #8b72af !important;
 }
 
 .link {
@@ -256,7 +263,7 @@ header a:hover {
 
 .home__block {
   margin: auto;
-  margin-top: 19%;
+  margin-top: 7%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -274,13 +281,9 @@ header a:hover {
 }
 
 .home__logo {
-  width: 190px;
-  max-width: 190px;
+  width: 530px;
+  max-width: 530px;
   transition: all 0.3s ease;
-}
-
-.home__logo:hover {
-  filter: invert(50%) sepia(12%) saturate(1413%) hue-rotate(223deg) brightness(94%) contrast(87%);
 }
 
 .experience {
@@ -452,8 +455,8 @@ header a:hover {
 }
 
 .about__text {
-  font-size: 15px;
-  text-align: justify;
+  font-size: 25px;
+  text-align: center;
   margin: auto;
   margin-bottom: 14px;
   max-width: 90%;
